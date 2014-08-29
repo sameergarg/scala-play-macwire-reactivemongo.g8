@@ -12,12 +12,12 @@ This will create a Play project using
 ## Usage
 ### From Git repo directly    
     
-    g8 git@github.com:sameergarg/scala-play-macwire-reactivemongo.g8.git --name [name of the project]
+    g8 https://github.com/sameergarg/scala-play-macwire-reactivemongo.g8.git
 
 ### From local file
 This is useful when you are making changes to template locally
 
-    g8 file://[path to the git project]/scala-play-macwire-reactivemongo.g8 --name=[name of the project]
+    g8 file://[path to the git project]/scala-play-macwire-reactivemongo.g8
         
 PS: giter8 must be installed on the machine. See [giter8 installation instructions](https://github.com/n8han/giter8#installation "giter8 installation instructions")
     
